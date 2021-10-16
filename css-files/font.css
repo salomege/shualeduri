@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Avenir-book';
+	src:  url('./fonts/Avenir book.ttf') format('truetype'),
+}
+
+@font-face {
+	font-family: 'Avenir-Medium';
+	src:  url('./fonts/Avenir Medium.ttf') format('truetype'),
+}
+
+@font-face {
+	font-family: 'Avenir-heavy';
+	src:  url('./fonts/Avenir Heavy.ttf') format('truetype'),
+}
+
+@font-face {
+	font-family: 'Avenir-black';
+	src:  url('./fonts/Avenir-black.ttf') format('truetype'),
+}
