@@ -15,13 +15,13 @@
 
 /* --styles for sidebar-- */
 .sidebar {
-    grid-row: span 4;
+    grid-row: span 3;
 }
 .black-box{
     max-width:319px;
     width:100%;
     margin:0 auto;
-    height:49.3%;
+    height:65%;
     background-color:#222222;
     padding-top: 42px;
 }
@@ -93,14 +93,14 @@
     font-size: 12px;
     font-family: 'Avenir-heavy';
 }
+    /* --styles for header-- */
 
-/* --Styles for header-- */
 .header-icons {
     display: flex;
     gap: 30px;
     margin:30px 91px 71px 25px;
     align-items: center;
-    justify-content: flex-end;  
+    justify-content: flex-end;        
 }
 .first-item {
     margin-right: auto;
@@ -132,157 +132,6 @@
     background-position:right center;
     outline: 0;
 } 
-/* --styles for main menu-- */
-
-.mid-conteiner {
-    max-width: 1231px;
-    width:100%;
-    margin: 0 auto;
-}
-.navbar-ul {
-    display: flex;
-    list-style-type: none;
-    font-family: 'Avenir-heavy';
-    gap: 50px;
-
-}
-.ul-and-filter {
-    width:100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 16px 20px 19px 18px;
-}
-a {
-    text-decoration: none;
-    color: #222222;
-    font-family: 'Avenir-book';
-    font-size:16px;
-}
-.all {
-    background-color: #F2F2F2;
-    border-radius: 12px;
-    padding: 16px 20px 19px 18px;
-}
-#filter {
-    max-width: 132px;
-    width:100%;
-    border-radius: 12px;
-    font-family: 'Avenir-heavy';
-    border-color: #D8D8D8;
-    background-image: url('../images/filter-icon.svg');
-    background-repeat: no-repeat;
-    background-position:left center;
-}
-.grid-mid-menu {
-    width:100%;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto;
-    /* column-gap: 25px; */
-}  
-
-.main-menu-img {
-    max-width: 289px;
-    width:100%;
-}
-.image-text {
-    font-size: 18px;
-    font-family: 'Avenir-Medium';
-    color:#222222;
-}
-.image-text-box{
-    display: flex;
-    max-width:289px;
-    width:100%;
-    flex-wrap: wrap;
-    padding-left:25px;
-    padding-right:25px;
-}
-.load-more {
-    font-size:16px;
-    font-family: 'Avenir-heavy';
-    padding: 16px 108px 19px 105px;
-    background-color: #F2F2F2;
-    border-radius: 12px;
-}
-.span-box {
-    max-width:289px;
-    width:100%;
-    margin:0 auto;
-    text-align: center;
-    margin-top:70px;
-    margin-bottom: 70px;
-}
-
-/* --Styles for designers-section-- */
-.designers-section {
-    background-color:#FAFAFA;
-}
-
-.designer-box {
-    max-width: 1231px;
-    width:100%;
-    background-color:#FAFAFA;
-}
-.designer-box-flex {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 67px; 
-}
-.top-designers {
-    font-size: 32px;
-    font-family: 'Avenir-heavy';
-}
-.view-all{
-    font-size: 14px;
-    font-family: 'Avenir-heavy';
-    opacity: 0.3;
-}
-.round-images-flex{
-   
-    display: flex;
-    justify-content: space-between;
-    gap:25px;
-    margin-top: 54px;
-    text-align: center;
-}
-.round-img-section{
-    max-width: 132px;
-    display: flex;
-    flex-direction: column;
-}
-.round-image {
-    max-width: 132px;
-    width:100%;
-}
-.name{
-    font-size:16px;
-    font-family: 'Avenir-Medium';
-    opacity: 1;
-/* max-width:70px; */
-}
-.country{
-    font-size:12px;
-    font-family: 'Avenir-book';
-    opacity: 0.6;
-}
-.following{
-    background-color:#D8D8D8; 
-    font-size: 14px;
-    font-family: 'Avenir-heavy';
-    padding: 12px 47px 13px 43px;
-    opacity: 1;
-    border-radius: 12px;
-}
-.follow{
-    font-size: 14px;
-    font-family: 'Avenir-heavy';
-    padding: 12px 47px 13px 43px;
-    opacity: 1;
-    background-color: #F2F2F2;
-    border-radius: 12px;
-}
-
 /* --Footer Styles-- */
 
 .footer-section{
@@ -353,3 +202,25 @@ grid-row: span 2;
     font-family: 'Avenir-black';
     font-size:16px;
 } */
+
+/* --table-section-- */
+
+
+.table-conteiner {
+    max-width: 1024px;
+    width:100%;
+    margin:0 auto;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  table {
+    width: 100%;
+  }
+  tr:hover {background-color: #FF2288;}
+ 
+  td {
+      height:72px;
+  }
