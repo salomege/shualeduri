@@ -6,55 +6,87 @@
 }
 .conteiner {
 	width: 100%;
-	margin:  10px auto;
+	margin:  0 auto;
 }
 .parent {
 	display: grid;
 	grid-template-columns: 16.7% auto auto auto;
-    /* grid-template-rows: fit-content (7.1% 40.6% 22.8% 29.5%); */
-    grid-auto-rows: minmax(157px, auto);
 }
+
 /* --styles for sidebar-- */
 .sidebar {
     grid-row: span 4;
 }
 .black-box{
+    max-width:319px;
+    margin:0 auto;
     height:49.3%;
-    padding:42px 30px 106px 30px;  
     background-color:#222222;
+    padding-top: 42px;
 }
-.grid-parent {
-    display: grid;
-	grid-template-columns: auto auto;
+.elements-in-sidebar {
+    max-width:220px;
+    margin:0 auto;
 }
-.load-more {
-    font-size:16px;
-    font-family: 'Avenir-heavy';
-    padding: 16px 108px 19px 105px;
-    background-color: #F2F2F2;
-}
-.span-box {
-    text-align: center;
-    border-radius: 12px;
-    margin-top:70px;
-    margin-bottom: 19px;
-}
-
-
-/* .sidebar-flex-1 {
-    max-width:259px;
+.sidebar-flex-1 {
     display: flex;
     justify-content: space-between;
-}    align-items: center; */
-
-/* /* .design-today {
+    align-items: center;
+    margin-bottom: 66px;
+}
+design-today {
     max-width:146px;
     font-family: 'Avenir-book';
 }
 .sidebar-img-1{
-    max-width:26px; */
-/* } */ 
-
+    max-width:26px;
+}
+.sidebar-flex-2 {
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    padding-left: 30px;
+}
+.sidebar-icon{
+    max-width:24px;
+}
+.icon-text{
+    color: #FFFFFF;
+    font-size:16px;
+    font-family: 'Avenir-Medium';
+}
+.sidebar-icon-section{
+    display:flex;
+    gap:15px;
+}
+.home-section{
+    background-color: #FF2288;
+    border-radius:12px;
+}
+.home{
+    padding-top:19px;
+    padding-bottom: 20px;
+    border-radius:12px;
+}
+.sidebar-flex-3 {
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    padding-left: 30px;
+    margin-top:67px;
+}
+.sidebar-designers{
+    max-width: 44px;
+}
+.sidebar-designer-section{
+    display: flex;
+    gap:20px;
+}
+.navbar-text {
+    color:#FFFFFF;
+    font-size: 12px;
+    font-family: 'Avenir-heavy';
+}
 /* --styles for header-- */
 .header-section {
     grid-column: span 3;
@@ -150,6 +182,20 @@ a {
     font-size: 18px;
     font-family: 'Avenir-Medium';
     color:#222222;
+}
+.load-more {
+    font-size:16px;
+    font-family: 'Avenir-heavy';
+    padding: 16px 108px 19px 105px;
+    background-color: #F2F2F2;
+    border-radius: 12px;
+}
+.span-box {
+    max-width:289px;
+    margin:0 auto;
+    text-align: center;
+    margin-top:70px;
+    margin-bottom: 70px;
 }
 
 /* --Styles for designers-section-- */
