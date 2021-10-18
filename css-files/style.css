@@ -178,17 +178,18 @@ a {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto;
-    /* column-gap: 25px; */
 }  
 
 .main-menu-img {
     max-width: 289px;
     width:100%;
 }
+
 .image-text {
     font-size: 18px;
     font-family: 'Avenir-Medium';
     color:#222222;
+    opacity: 1;
 }
 .image-text-box{
     display: flex;
@@ -197,6 +198,14 @@ a {
     flex-wrap: wrap;
     padding-left:25px;
     padding-right:25px;
+    background-color: white;
+    border-radius:12px;
+    transition-property: all;
+    transition-delay: 0.3s;
+    transition-duration: 2s;
+}
+.image-text-box:hover{
+    background-color: #FF2288;
 }
 .load-more {
     font-size:16px;

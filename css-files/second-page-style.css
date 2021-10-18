@@ -219,9 +219,21 @@ a {
     margin:0 auto;
 }
 
-th, td {
+ td {
     border-bottom: 1px solid #ddd;
     text-align: left;
+    color:#AFAFAF;
+    font-size:16px;
+    font-family: 'Avenir-heavy'; 
+    opacity: 1; 
+  }
+  th {
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    color:#111111;
+    font-size:18px;
+    font-family: 'Avenir-heavy';  
+    opacity: 1; 
   }
   table {
     width: 100%;
