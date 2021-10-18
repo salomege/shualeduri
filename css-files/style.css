@@ -120,17 +120,12 @@
     border-radius: 12px;
 }
 #search {
-    position:relative;
     background-color: #F8F8F8;
     border-radius: 12px;
     outline: none;
     border-color: #F8F8F8;
     max-width: 446px;
     width:100%;
-}
-
-.search-icon-image: {
-    position: absolute;
 }
 
 
